@@ -1,0 +1,6 @@
+﻿#main-container {
+    background-image: url("Images/staticnoise.gif");
+    background-repeat:no-repeat;
+    background-size:500px;
+    background-position:center;
+}
