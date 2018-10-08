@@ -1,0 +1,16 @@
+﻿#main-container{
+    background-image:url("Images/porterthing.gif");
+    background-position:center;
+    background-repeat:no-repeat;
+}
+.body-content{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:100vh;
+    box-sizing:border-box;
+}
+h2{
+    color:#ffffff;
+    font-size:30px;
+}

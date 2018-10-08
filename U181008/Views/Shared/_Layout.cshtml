@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title</title>
     <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+    @RenderSection("Styles", false)
 </head>
 <body>
     <div class="navbar">
@@ -13,14 +14,15 @@
                 @Html.ActionLink("Home", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
         </div>
-    </div>
+    </div> 
+    <div id="main-container">
+        <div class="container body-content">
+            @RenderBody()
+        </div>
 
-    <div class="container body-content">
-        @RenderBody()
+        <div class="footer">
+            <p>A nice looking footer</p>
+        </div>
     </div>
-
-    <footer>
-        <p>A nice looking footer</p>
-    </footer>
 </body>
 </html>
