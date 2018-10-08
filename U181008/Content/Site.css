@@ -1,5 +1,12 @@
 ﻿/* Import inter-ui font*/
 @import url('https://rsms.me/inter/inter-ui.css');
+
+@font-face {
+    font-family: 'SnareDrum-One-NBP';
+    src: url('../fonts/SnareDrum-One-NBP.ttf.woff') format('woff'), url('../fonts/SnareDrum-One-NBP.ttf.svg#SnareDrum-One-NBP') format('svg'), url('../fonts/SnareDrum-One-NBP.ttf.eot'), url('../fonts/SnareDrum-One-NBP.ttf.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
 html,
 body{
     height: 100%;
